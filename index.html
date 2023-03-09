@@ -1,103 +1,147 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Samwayle</title>
-</head>
-<body>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+      integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Alegreya+Sans&family=Cedarville+Cursive&family=Josefin+Sans:wght@400;700&family=Open+Sans&family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./styles/style.css" />
+  </head>
+  <body>
     <header>
-        <nav>
-        <a href="/"><img src="./images/logo.svg" alt="Company logo">Samwayle</a>
-        <ul>
-            <li>About us</li>
-            <li>Promotion</li>
-            <li>Shop</li>
-            <li>Contacts</li>
+      <nav>
+        <a class="header-logo-name link" href="/"
+          ><img src="./images/logo.svg" alt="Company logo" />Samwayle</a
+        >
+        <ul class="header-nav-list list">
+          <li class="header-nav-item">
+            <a href="" class="header-nav-link link">About us</a>
+          </li>
+          <li class="header-nav-item">
+            <a href="" class="header-nav-link link">Promotion</a>
+          </li>
+          <li class="header-nav-item">
+            <a href="" class="header-nav-link link">Shop</a>
+          </li>
+          <li class="header-nav-item">
+            <a href="" class="header-nav-link link">Contacts</a>
+          </li>
         </ul>
-        <a href="">
-            Contact Us
-        </a>
-    </nav>
+        <button type="button" class="header-nav-btn">Contact Us</button>
+      </nav>
     </header>
     <main>
-        <!-- Hero -->
-        <section>
-            <p>Drink coffee, enjoy with Samwyle</p>
-            <h1>Coffee Shop</h1>
-            <a href="">Order here</a>
-            <img src="./images/hero_cup.svg" alt="Cup of coffee">
-            <p>Coffee</p>
-             <ul>
-                <li><a href=""></a></li>
-                <li><a href=""></a></li>
-                <li><a href=""></a></li>
-             </ul>
-             <p>Follow us</p>
-        </section>  
-          <!-- About us -->
-        <section>
-            <p>About us</p>
-            <img src="./images/about_us_cup.svg" alt="Cup of coffee in about us section">
-            <h2>Coffee Shop Samwayle</h2>
-            <p>
-                Only one moment - when the barista reaches out over the bar to transfer the cup to the outstretched hand of the buyer.
-                But this is exactly the moment when a connection arises between us and our guests. 
+      <!-- Hero -->
+      <section>
+        <p class="hero-description">Drink coffee, enjoy with Samwayle</p>
+        <h1 class="hero-header">Coffee Shop</h1>
+        <button type="button" class="hero-link-btn">Order here</button>
+        <img src="./images/hero_cup.svg" alt="Cup of coffee" />
+        <ul class="hero-list list">
+          <li class="hero-list-item">
+            <a href="" class="hero-list-link link">Twitter</a>
+          </li>
+          <li class="hero-list-item">
+            <a href="" class="hero-list-link link">Instagram</a>
+          </li>
+          <li class="hero-list-item">
+            <a href="" class="hero-list-link link">Facebook</a>
+          </li>
+        </ul>
+        <p class="hero-list-sub">Follow us</p>
+      </section>
+      <!-- About us -->
+      <section>
+        <p class="about-us-sect">About us</p>
+        <img
+          src="./images/about_us_cup.svg"
+          alt="Cup of coffee in about us section"
+        />
+        <h2 class="about-us-header">Coffee Shop Samwayle</h2>
+        <p class="about-us-desc">
+          Only one moment - when the barista reaches out over the bar to
+          transfer the cup to the outstretched hand of the buyer. But this is
+          exactly the moment when a connection arises between us and our guests.
+        </p>
+        <p class="about-us-desc">
+          And we strive to do our best to maintain this connection - starting
+          with our commitment to selecting the highest quality coffee in the
+          world and ending with how we interact with guests and organizations to
+          fulfill our obligations.
+        </p>
+      </section>
+      <!-- Promotion -->
+      <section>
+        <h2 class="promotion-header">Coffee of the day</h2>
+        <p class="promotion-desc">
+          Americano coffee (Italian: Caffè Americano) is an espresso diluted
+          with hot water. The presence of foam (cream) depends on how coffee and
+          water are mixed. Attention! The concepts of “American” and “American
+          coffee” should not be confused. n the second case, this refers not to
+          diluted espresso, but to a drink prepared through a filter system.
+        </p>
+        <button type="button" class="promotion-btn">Order now</button>
+        <img src="./images/Promotion_cup.svg" alt="" />
+        <p class="promotion-sect">Promotion</p>
+      </section>
+      <!-- Pick list -->
+      <section>
+        <ul class="pick-list list">
+          <li class="pick-list-item">
+            <h3 class="pick-list-header">Americano</h3>
+            <p class="pick-list-desc">
+              The name Latte (from Italian “milk”) speaks about the main
+              ingredient of the drink. It is recommended to take fat milk - at
+              least 3.2%. In addition to it, milk foam.
             </p>
-            <p>And we strive to do our best to maintain this connection - starting with our 
-            commitment to selecting the highest quality coffee in the world and ending with how we interact with guests and organizations to fulfill our obligations.
+            <button type="button" class="pick-list-btn">Order now</button>
+          </li>
+          <li class="pick-list-item">
+            <h3 class="pick-list-header">Latte</h3>
+            <p class="pick-list-desc">
+              The name Latte (from Italian “milk”) speaks about the main
+              ingredient of the drink. It is recommended to take fat milk - at
+              least 3.2%. In addition to it, milk foam.
             </p>
-        </section>
-        <!-- Promotion -->
-        <section>
-            <p>Promotion</p>
-            <img src="./images/Promotion_cup.svg" alt="">
-            <h2>Coffee of the day</h2>
-            <p>Americano coffee (Italian: Caffè Americano) is an espresso diluted with hot water. The presence of foam (cream) depends on how coffee and water are mixed.
-                Attention! The concepts of “American” and “American coffee” should not be confused. n the second case, this refers not to diluted espresso, but to a drink prepared through a filter system.
+            <button type="button" class="pick-list-btn">Order now</button>
+          </li>
+          <li class="pick-list-item">
+            <h3 class="pick-list-header">Espresso</h3>
+            <p class="pick-list-desc">
+              Espresso - black coffee made in a coffee machine or a special
+              coffee machine, where hot water is passed through pressed ground
+              beans at a pressure.
             </p>
-            <a href="">Order now   </a>
-        </section>
-        <!-- Pick list -->
-        <section>
-            <ul>
-                <li> 
-                    <h3>Americano
-                    </h3>
-                    <p>The name Latte (from Italian “milk”) speaks about the main ingredient of the drink. It is recommended to take fat milk - at least 3.2%. In addition to it, milk foam.
-                    </p>
-                    <a href="">Order now</a>
-                </li>
-                <li> 
-                    <h3>Latte
-                    </h3>
-                    <p>The name Latte (from Italian “milk”) speaks about the main ingredient of the drink. It is recommended to take fat milk - at least 3.2%. In addition to it, milk foam.
-                    </p>
-                    <a href="">Order now</a>
-                </li>
-                <li> 
-                    <h3>Espresso
-                    </h3>
-                    <p>Espresso - black coffee made in a coffee machine or a special coffee machine, where hot water is passed through pressed ground beans at a pressure.
-                    </p>
-                    <a href="">Order now</a>
-                </li>
-            </ul>
-        </section>
+            <button type="button" class="pick-list-btn">Order now</button>
+          </li>
+        </ul>
+      </section>
     </main>
     <footer>
-        <img src="" alt="map" width="351">
-        <h3>
-            Our address
-        </h3>
-        <ul>
-            <li>110 St-Cathedral Pkwy Station</li>
-            <li>4310 94th St, Flushing</li>
-            <li>94-54 Corona Ave., Elmhurst</li>
-            <li>5627 Van Doren St, Queens</li>
+      <img src="./images/map.jpg" alt="map" width="351" />
+      <h3 class="address-header">Our address</h3>
+      <address>
+        <ul class="address-list list">
+          <li class="address-list-item">110 St-Cathedral Pkwy Station</li>
+          <li class="address-list-item">4310 94th St, Flushing</li>
+          <li class="address-list-item">94-54 Corona Ave., Elmhurst</li>
+          <li class="address-list-item">5627 Van Doren St, Queens</li>
         </ul>
-        <p>2020 (c) - Samwyle bandtitos</p>
+      </address>
+      <p class="copyright">2020 (c) - Samwyle bandtitos</p>
     </footer>
-</body>
+  </body>
 </html>
